@@ -16,6 +16,18 @@ public class Main {
 
         String nombre = "Manuel";
         String apellidos = "Villén Cano";
-        System.out.println("Hola mundo y " + nombre + " " + apellidos);
+        System.out.println("Hola mundo y " + nombre.toUpperCase() + " " + apellidos.toLowerCase());
+
+        boolean valor = true;
+        int numero = 29;
+        int numero2 = 11;
+
+        if(valor){
+            System.out.println("Número = " + numero);
+            numero2 = 10;
+        }
+        System.out.println("numero2 = " + numero2);
+
+        var numero3 = "14";
     }
 }
